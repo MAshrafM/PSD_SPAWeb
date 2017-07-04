@@ -1,0 +1,41 @@
+#main-content{
+  width: 60%;
+  margin: 60px auto 0 auto;
+  
+  .about{
+    h3{
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+    p{
+      margin: o;
+      font-size: 12px;
+      letter-spacing: 0;
+      margin-bottom: 60px;
+      word-spacing: 3px;
+      line-height: 16px;
+      font-weight: 500;
+    }
+    
+    .btn{
+      width: 120px;
+      height: 40px;
+      border: none;
+      margin-bottom: 60px;
+      cursor: pointer;
+    }
+    
+    .btn-main{
+      background-color: $prim;
+      color: white;
+      font-weight: bold;
+      line-height: 40px;
+      text-transform: uppercase;
+      &:hover{
+        background-color: $sec;
+        transition: .5s;
+      }
+    }
+  }
+}
