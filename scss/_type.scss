@@ -1,0 +1,13 @@
+$prim: #687172;
+$sec: #d73240;
+
+@font-face{
+  font-family: 'Tai';
+  src: "../fonts/taile.tff";
+}
+
+body{
+  font-family: 'Tai', 'Open Sans', sans-serif;
+  color: $prim;
+  text-align: center;
+}
