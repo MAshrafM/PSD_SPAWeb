@@ -30,4 +30,44 @@
       }
     }
   }
+
+  .hero{
+    width: 50%;
+    margin: 80px auto 0 auto;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:center;
+    .up{
+      h4{
+        font-size: 16px;
+        font-weight: bold;
+      }
+      h1{
+        font-size: 57px;
+        font-weight: bold;
+        color: $sec;
+        letter-spacing: -5px;
+      }
+      h2{
+        font-size: 42px;
+        letter-spacing: -5px;
+        margin-top: -5px;
+      }
+    }
+  
+    .down{
+      h3{
+        font-size: 24px;
+        font-weight:bold;
+        letter-spacing: 5px;
+      }
+      p{
+        font-size: 21px;
+        letter-spacing: 5px;
+      }
+    }
+  }
+  
 }
