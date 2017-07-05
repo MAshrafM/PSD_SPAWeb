@@ -112,7 +112,7 @@ body {
     font-weight: bold;
     margin-bottom: 20px; }
   #main-content .about p {
-    margin: o;
+    margin: 0;
     font-size: 12px;
     letter-spacing: 0;
     margin-bottom: 60px;
@@ -134,3 +134,33 @@ body {
     #main-content .about .btn-main:hover {
       background-color: #d73240;
       transition: .5s; }
+  #main-content .projects {
+    width: 100%;
+    margin: 0 auto; }
+    #main-content .projects h3 {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 20px; }
+    #main-content .projects p {
+      margin: 0;
+      font-size: 12px;
+      letter-spacing: 0;
+      margin-bottom: 60px;
+      word-spacing: 3px;
+      line-height: 16px;
+      font-weight: 500; }
+    #main-content .projects .project-wrap {
+      height: 261px;
+      width: 97%;
+      margin: 0 auto;
+      background-color: #687172;
+      display: flex;
+      justify-content: space-around;
+      margin-bottom: 60px; }
+      #main-content .projects .project-wrap .project-item {
+        cursor: pointer; }
+        #main-content .projects .project-wrap .project-item img {
+          opacity: .5; }
+          #main-content .projects .project-wrap .project-item img:hover {
+            opacity: 1;
+            transition: .5s; }
