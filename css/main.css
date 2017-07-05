@@ -240,6 +240,12 @@ body {
           color: white; }
       #footer-wrapper .footer-items .social .lt {
         margin-top: 115px; }
+      #footer-wrapper .footer-items .social .icons {
+        margin-top: 15px;
+        width: 60%;
+        float: right;
+        display: flex;
+        justify-content: space-between; }
 
 footer {
   width: 100%;
