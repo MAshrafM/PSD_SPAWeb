@@ -164,3 +164,93 @@ body {
           #main-content .projects .project-wrap .project-item img:hover {
             opacity: 1;
             transition: .5s; }
+
+#footer-wrapper {
+  height: 286px;
+  width: 100%;
+  background-image: url("../img/bgfoot.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; }
+  #footer-wrapper .footer-items {
+    width: 65%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px; }
+    #footer-wrapper .footer-items h4 {
+      color: white;
+      font-weight: 400;
+      text-transform: uppercase;
+      text-align: left; }
+    #footer-wrapper .footer-items .recent {
+      width: 30%; }
+      #footer-wrapper .footer-items .recent .list {
+        text-align: left;
+        margin-top: 15px;
+        color: white;
+        font-size: 12px; }
+        #footer-wrapper .footer-items .recent .list li {
+          padding: 10px 0; }
+        #footer-wrapper .footer-items .recent .list span.bullet {
+          width: 10px;
+          height: 10px;
+          border-radius: 50%;
+          background-color: grey;
+          display: inline-block;
+          margin-right: 10px; }
+    #footer-wrapper .footer-items .info {
+      width: 39%; }
+      #footer-wrapper .footer-items .info h4 {
+        text-align: center; }
+      #footer-wrapper .footer-items .info p {
+        margin-top: 15px;
+        font-size: 12px;
+        text-align: left;
+        color: white; }
+      #footer-wrapper .footer-items .info .contact {
+        margin-top: 45px;
+        text-align: left;
+        color: white; }
+        #footer-wrapper .footer-items .info .contact h5 {
+          text-transform: uppercase; }
+    #footer-wrapper .footer-items .social {
+      width: 30%;
+      text-align: right; }
+      #footer-wrapper .footer-items .social h4 {
+        text-align: right; }
+      #footer-wrapper .footer-items .social .input-wrap {
+        width: 80%;
+        margin-top: 15px;
+        display: flex;
+        float: right; }
+        #footer-wrapper .footer-items .social .input-wrap input[type="text"] {
+          height: 30px;
+          width: 120px;
+          border: 0;
+          background-color: #bdbdbd;
+          padding-left: 10px;
+          color: #687172;
+          font-size: 12px; }
+        #footer-wrapper .footer-items .social .input-wrap .btn {
+          width: 80px;
+          border: 0;
+          text-transform: uppercase;
+          font-size: 12px;
+          background-color: #d73240;
+          color: white; }
+      #footer-wrapper .footer-items .social .lt {
+        margin-top: 115px; }
+
+footer {
+  width: 100%;
+  height: 55px;
+  background-color: #d73240;
+  line-height: 55px; }
+  footer .content {
+    width: 65%;
+    margin: 0 auto;
+    color: white; }
+    footer .content p {
+      margin: 0;
+      text-align: left;
+      font-size: 12px; }
