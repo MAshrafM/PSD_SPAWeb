@@ -59,7 +59,8 @@ body {
   height: 624px;
   background-image: url("../img/bg.jpg");
   background-size: cover;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  background-position: center center; }
   #header-wrapper .navbar {
     height: 57px;
     width: 50%;
@@ -103,6 +104,10 @@ body {
     #header-wrapper .hero .down p {
       font-size: 21px;
       letter-spacing: 5px; }
+
+@media screen and (max-width: 680px) {
+  #header-wrapper .navbar {
+    width: 95%; } }
 
 #main-content {
   width: 60%;
@@ -164,6 +169,19 @@ body {
           #main-content .projects .project-wrap .project-item img:hover {
             opacity: 1;
             transition: .5s; }
+
+@media screen and (max-width: 680px) {
+  #main-content {
+    display: flex;
+    flex-direction: column; }
+    #main-content .projects {
+      display: block;
+      clear: both;
+      position: relative; }
+      #main-content .projects .project-wrap {
+        height: 788px;
+        width: 261px;
+        flex-direction: column; } }
 
 #footer-wrapper {
   height: 286px;
@@ -260,3 +278,38 @@ footer {
       margin: 0;
       text-align: left;
       font-size: 12px; }
+
+@media screen and (max-width: 680px) {
+  #footer-wrapper {
+    height: 800px;
+    background-position: center center; }
+    #footer-wrapper .footer-items {
+      width: 95%;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center; }
+      #footer-wrapper .footer-items .recent, #footer-wrapper .footer-items .info {
+        width: 80%;
+        margin-bottom: 25px;
+        padding-bottom: 25px;
+        border-bottom: 1px solid grey; }
+      #footer-wrapper .footer-items .info p, #footer-wrapper .footer-items .info .contact {
+        text-align: center; }
+      #footer-wrapper .footer-items .social {
+        width: 80%;
+        text-align: center; }
+        #footer-wrapper .footer-items .social h4 {
+          text-align: center; }
+        #footer-wrapper .footer-items .social .input-wrap {
+          width: 100%;
+          float: none; }
+          #footer-wrapper .footer-items .social .input-wrap input[type="text"] {
+            width: 80%; }
+        #footer-wrapper .footer-items .social .lt {
+          margin-top: 50px; }
+        #footer-wrapper .footer-items .social .icons {
+          float: none;
+          align-items: center;
+          margin: 15px auto 0 auto; }
+  footer .content p {
+    text-align: center; } }

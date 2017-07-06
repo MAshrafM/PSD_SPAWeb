@@ -123,3 +123,62 @@ footer{
     }
   }
 }
+
+@media screen and (max-width: 680px){
+  #footer-wrapper{
+    height: 800px;
+    background:{
+      position: center center;
+    }
+    
+    .footer-items{
+      width: 95%;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      
+      .recent, .info{
+        width: 80%;
+        margin-bottom: 25px;
+        padding-bottom: 25px;
+        border-bottom: 1px solid grey;
+      }
+      .info{
+        p, .contact{
+          text-align: center;
+        }
+      }
+      .social{
+        width: 80%;
+        text-align: center;
+        h4{
+          text-align: center;
+        }
+        .input-wrap{
+          width: 100%;
+          float: none;
+          input[type="text"]{
+            width: 80%;
+          }
+        }
+        .lt{
+          margin-top: 50px;
+        }
+        .icons{
+          float: none;
+          align-items:center;
+          margin: 15px auto 0 auto;
+        }
+      }
+
+    }
+  }
+  
+  footer{
+    .content{
+      p{
+        text-align:center;
+      }
+    }
+  }
+}

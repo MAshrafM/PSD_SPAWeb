@@ -79,3 +79,23 @@
     }
   }
 }
+
+@media screen and (max-width: 680px){
+  #main-content{
+    display: flex;
+    flex-direction: column;
+    .projects{
+      display: block;
+      clear: both;
+      position: relative;
+      .project-wrap{
+        height: 788px;
+        width: 261px;
+        flex-direction: column;
+      }
+    }
+  }
+  
+  
+  
+}
